@@ -1,0 +1,31 @@
+body{
+    font-family: Roboto;
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+}
+#container{
+  color: #4a515b;
+  text-align: center;
+  margin: auto 40px;
+}
+.card{
+  margin: 10px;
+  padding : 30px;
+  text-align: center;
+  background-color: #eaeeef;
+}
+img{
+  height:500px;
+  width:500px;
+}
+#image-container{
+  text-align: center;
+}
+.row{
+  width: 80%;
+}
+.btn{
+  margin-top: 20px;
+}
+.color-black{
+  background: red;
+}

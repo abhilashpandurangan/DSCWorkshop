@@ -1,0 +1,69 @@
+body{
+  font-family: Roboto;
+  background: #E8CBC0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #636FA4, #E8CBC0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#input{
+  margin-top: 60px;
+}
+/* label focus color */
+.input-field input[type=text] + label {
+     color: #373B44;
+}
+/* label underline focus color */
+.input-field input[type=text]{
+     border-bottom: 1px solid #373B44;
+     box-shadow: 0 1px 0 0 #373B44;
+   }
+
+#btn-row{
+  margin-top: 50px;
+}
+.btnDiv{
+  text-align: center;
+}
+.btn{
+   background-color: #373B44;
+   height:50px;
+   width:150px;
+   padding-top: 5px;
+   font-size: 20px;
+   font-weight: bold;
+ }
+.btn:hover{
+  background: #827181;
+}
+#p1-card{
+  height: 330px;
+  width: 330px;
+  margin-left: 150px;
+  border-radius: 50%;
+  text-align: center;
+  background: #D3CCE3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#p2-card{
+  height: 330px;
+  width: 330px;
+  margin-right: 150px;
+  border-radius: 50%;
+  float: right;
+  text-align: center;
+  background: #D3CCE3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#card-container{
+  text-align: center;
+}
+h1{
+  margin:100px auto;
+  font-size: 130px;
+  color: #7866a5;
+  font-weight: bold;
+}
+.winner{
+  color:"green";
+}
